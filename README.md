@@ -3,6 +3,8 @@
 Basic web app to upload files to an S3 bucket. It also lists the files under the
 bucket.
 
+<img src="docs/assetuploader.png" alt="screenshot" />
+
 ## Requirements
 
 - [Clojure 1.9 CLI](https://clojure.org/guides/getting_started)
