@@ -4,6 +4,7 @@
   amazonica {:mvn/version "0.3.121"}
   bidi {:mvn/version "2.1.3"}
   yogthos/config {:mvn/version "1.1.1"}
+  clj-http {:mvn/version "3.8.0"}
   com.stuartsierra/component {:mvn/version "0.3.2"}}
 
  :aliases

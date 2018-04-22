@@ -4,3 +4,4 @@
 tmp/
 .cpcache/
 .rebel_readline_history
+src/config.edn
