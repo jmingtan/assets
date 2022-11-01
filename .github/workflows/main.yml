@@ -26,6 +26,4 @@ jobs:
         cmd-exe-workaround: 'latest' # Replaces `clojure` with `deps.clj` on Windows
         zprint: 1.2.3                # zprint
     - name: Install dependencies
-      run: lein deps
-    - name: Run tests
-      run: lein test
+      run: clj -X:deps prep
