@@ -26,4 +26,4 @@ jobs:
         cmd-exe-workaround: 'latest' # Replaces `clojure` with `deps.clj` on Windows
         zprint: 1.2.3                # zprint
     - name: Install dependencies
-      run: clj -X:deps prep
+      run: clojure -X:deps prep
